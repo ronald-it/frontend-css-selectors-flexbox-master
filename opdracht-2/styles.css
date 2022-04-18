@@ -1,0 +1,47 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list-items {
+    list-style: none;
+    display: inline-flex;
+    gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Deze kon ik niet oplossen
+Ik was van plan het SME tijdvak
+van maandag te gebruiken, maar
+die was helaas gecanceld. Kwam
+daar ook pas maandag achter :')*/
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
